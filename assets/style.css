@@ -1,0 +1,49 @@
+/* Create Css File - DONE*/ 
+/* Link CSS file to HTML - DONE*/ 
+/*Add style for box-sizing: border-box; for universal selector and psuedo classes before and after -DONE*/
+/* Style h1 tag so that it is centered, bigger font size than paragraph - DONE*/
+/* Style p tag content to be centered and also the text alignment to be centered. - DONE*/
+/* Style goku image to be centered, and smaller size -DONE*/
+/* Style start button to be centered, rounded border, blue background, white text. -DONE*/
+
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  
+    padding: 50px 50px 0px 50px;
+    text-align: center;
+}
+
+p {
+  padding:10px;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+img{
+  width: 25%;
+  display: block;
+  padding: 5px;
+  margin: auto;
+}
+
+button {
+  display: block;
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+
+}
+
+
+
+
+
+
