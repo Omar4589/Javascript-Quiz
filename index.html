@@ -1,11 +1,37 @@
 <!--Create Html File - DONE --> 
-<!--Html file must have H1 that says "Javascript Coding Quiz"-->
-<!--Undernead the H1 tag, We need a <p> tag that says 
-    "Try to answer the following Javascript related questions within the time
-    limit. Keep in mind that incorrect answers will penalize your score 
-    time by ten seconds! Good Luck!" - DONE -->
-<!--Add Goku image with thumbs up image - DONE--->
-<!---Create button underneath <p> tag that reads "Start Quiz" add class and id "start-button"- DONE--->
+<!---Create start page-->
+    <!--Html file must have H1 that says "Javascript Coding Quiz"-DONE-->
+    <!--Undernead the H1 tag, We need a <p> tag that says 
+        "Try to answer the following Javascript related questions within the time
+        limit. Keep in mind that incorrect answers will penalize your score 
+        time by ten seconds! Good Luck!" - DONE -->
+    <!--Add Goku image with thumbs up image - DONE--->
+    <!---Create button underneath <p> tag that reads "Start Quiz" add class and id "start-button"- DONE--->
+
+<!-- Create test page that displays questions--->
+<!--add hidden attribute to container-DONE-->
+<!--Quiz page displays question using h1 tag- DONE--->
+<!---The number of question is displayed to the right in small font using  span tag. (1/10)-DONE-->
+<!---multiple choice answers are displayed as buttons underneath question-DONE-->
+<!---span tag that says correct for when the answer was answered correctly--DONE-->
+<!--span tag that says wrong! for when the answer was wrong--DONE-->
+<!--create timer container with id timer and align it at the bottom--DONE--->
+
+<!---Create results page-->
+<!--add hidden attribute to container-- DONE-->
+<!--H1 tag that reads "Quiz Results"--DONE-->
+<!--user score is displayed using span tag to the left side -DONE-->
+<!--image tag to the right of the score to show you passed or failed--DONE-->
+<!--create form for user to input their name--DONE--->
+<!--create input for name--DONE--->
+<!--create submit button to submit name and score to high scores page-DONE-->
+
+<!--create high scores page-->
+<!--h1 tag that reads 'High Scores'--DONE--->
+<!--list that holds list of high scores previously recorded--DONE-->
+<!--create 'home' button--DONE-->
+<!---create "clear highscores" button--DONE-->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,14 +44,46 @@
 </head>
 
 <body>
-    <h1>Javascript Coding Quiz</h1>
+    <header>
+        <h1>Javascript Coding Quiz</h1>
+    </header>
+<main>
+    <div id="start-page">
         <p>Try to answer the following Javascript related questions within the time limit.<br>
             Keep in mind that incorrect answers will penalize your score by ten seconds!
             Goodluck!
         </p>
         <img src="./assets/goku.png" alt="Goku Thumbs Up Image">
-    <button class="start-button" id="start-button">Start Quiz</button>
     
+        <button id="start-button">Start Quiz</button>
+    </div>
+
+    <div id="quiz-page" hidden>
+        <h1 id="question"></h1><span id="question-number"></span>
+        <div id="choices"></div>
+        <span id="correct">Correct!</span>
+        <span id="wrong">Wrong!</span>
+        <button id="next-btn">Next Question</button>
+        <span id="timer"></span>
+    </div>
+
+    <div id="results-page" hidden>
+        <h1>Quiz Results</h1>
+        <span id="score"></span> <img id="results-img" alt="result image">
+        <form>
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" style="text-align: center;">
+        </form>
+        <button id="submit-btn">Submit Score</button>
+    </div>
+
+    <div id="highscores-page" hidden>
+        <h1>High Scores</h1>
+        <div id="scores-list"></div>
+        <button id="home-btn">Home</button>
+        <button id="clear-btn">Clear High Scores</button>
+    </div>
+</main>
 </body>
 
 </html>
