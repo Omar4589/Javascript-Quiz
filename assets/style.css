@@ -1,28 +1,25 @@
-/* Create Css File - DONE*/ 
-/* Link CSS file to HTML - DONE*/ 
-/*Add style for box-sizing: border-box; for universal selector and psuedo classes before and after -DONE*/
-/* Style h1 tag so that it is centered, bigger font size than paragraph - DONE*/
-/* Style p tag content to be centered and also the text alignment to be centered. - DONE*/
-/* Style goku image to be centered, and smaller size -DONE*/
-/* Style start button to be centered, rounded border, blue background, white text. -DONE*/
-
-
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-h1 {
-  
-    padding: 50px 50px 0px 50px;
-    text-align: center;
+main{
+ padding: 0px 20px 0px 20px;
 }
 
+header {
+  
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/*Start Page Css starts*/
 p {
-  padding:10px;
+  padding:50px 0px 20px 0px;
   width: 75%;
   text-align: center;
   margin: auto;
+  font-size: 25px;
 }
 
 img{
@@ -32,16 +29,147 @@ img{
   margin: auto;
 }
 
-button {
-  display: block;
-  margin: 5px auto;
-  padding: 5px;
-  border-radius: 15px;
-  background-color: blue;
-  color: white;
+.start-page-buttons{
+  display: flex;
+  justify-content: center;
 
 }
 
+#start-button {
+  padding: 5px 10px;
+  margin: 0px 5px 0px 0px ;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+
+}
+
+#hs-button {
+  padding: 5px 10px;
+  margin: 0px 0px 0px 5px ;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+
+}
+/*Start Page Css ends*/
+
+/*Quiz Page Css starts*/
+#quiz-page {
+  padding-top:50px
+}
+
+#timer {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+#question-number {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+#question {
+  margin: 0;
+  text-align: center;
+}
+
+.choices {
+  width: 50%;
+  margin: auto;
+  padding: 10px 0px;
+}
+
+#answer1, #answer2, #answer3, #answer4 {
+  display: block;
+  margin: 10px 0px;
+  padding: 2px 10px;
+}
+
+#answer-result {
+  text-align: center;
+  display: block;
+  font-size: 35px;
+  padding: 20px 0px 10px 0px;
+}
+
+#next-button {
+  display: block;
+  margin: 5px auto;
+  padding: 5px 10px;
+}
+/*Quiz Page Css ends*/
+
+/*Results Page Css starts */
+#results-page h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 30px 0px 10px 0px;
+}
+
+#results-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+}
+
+#results-page span {
+text-align: center;
+justify-content: center;
+align-items: center;
+width: 50%;
+font-size: 100px;
+}
+
+#results-page img {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+#submit-button {
+  margin-left: 5px;
+}
+/*Results Page Css starts */
+
+#highscores-page {
+  padding: 20px;
+}
+
+#highscores-page h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+#scores-list {
+  padding: 20px 10px;
+}
+
+#home-button {
+  margin-right: 1px;
+}
+
+#clear-button {
+  margin-left: 1px;
+}
+
+.hs-page-buttons {
+display: flex;
+justify-content: center;
+}
+/*High Scores Page starts*/
 
 
 
