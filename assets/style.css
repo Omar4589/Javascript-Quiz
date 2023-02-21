@@ -15,8 +15,8 @@ header {
 
 /*Start Page Css starts*/
 p {
-  padding:50px 0px 20px 0px;
-  width: 75%;
+  padding:15px 0px 20px 0px;
+  width: 90%%;
   text-align: center;
   margin: auto;
   font-size: 25px;
@@ -142,8 +142,10 @@ font-size: 100px;
 #submit-button {
   margin-left: 5px;
 }
-/*Results Page Css starts */
+/*Results Page Css ends */
 
+
+/*High Scores Page starts*/
 #highscores-page {
   padding: 20px;
 }
@@ -169,7 +171,15 @@ font-size: 100px;
 display: flex;
 justify-content: center;
 }
-/*High Scores Page starts*/
+/*High Scores Page ends*/
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+}
 
 
 
