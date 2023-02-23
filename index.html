@@ -14,10 +14,11 @@
     </header>
 <!--Start Page-->
 <main>
-    <div id="start-page"  >
-        <p>Try to answer the following Javascript related questions before the timer hits 0.<br>
-            Keep in mine that everytime you answer incorrectly, 10 seconds will be deducted from the timer.
-            Goodluck!
+    <div id="start-page" >
+        <p>Hey! It's me, Goku! I heard this Javascript quiz is pretty tough, but I'm positive that you can beat it. <br>
+            Try to answer the following Javascript related questions before the timer hits 0.<br>
+            Keep in mind that everytime you answer incorrectly, 10 seconds will be deducted from the timer.<br>
+            Remember your training. Goodluck!
         </p>
         <img src="./assets/goku.png" alt="Goku Thumbs Up Image">
 
@@ -27,28 +28,27 @@
         </section>
     </div>
 <!--Quiz Page-->
-    <div id="quiz-page" hidden>
-        <span id="timer"><b>100 seconds</b></span><span id="question-number">1/10</span>
-        <h1 id="question">Sample:What is a function?</h1>
+    <div id="quiz-page" hidden >
+        <span id="timer"><b></b></span><span id="question-number">1/10</span>
+        <h1 id="question"></h1>
         <section class="choices">
-            <button id="answer1">Sample</button>
-            <button id="answer2">Sample</button>
-            <button id="answer3">Sample</button>
-            <button id="answer4">Sample</button>
+            <button id="answer1"></button>
+            <button id="answer2"></button>
+            <button id="answer3"></button>
+            <button id="answer4"></button>
         </section>
         <span id="answer-result">Correct!</span>
-        <button id="next-button">Next Question</button>
     </div>
 <!--Results Page-->
     <div id="results-page" hidden>
         <h1>Quiz Results</h1>
         <div id="results-container">
-            <span id="score">10</span> <img id="results-img" alt="result image">
+            <span id="score"></span> <img id="results-img" alt="result image">
         </div>
         <div class="form-container">
             <form>
                 <label for="name"></label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" style="text-align: center;">
+                <input type="text" id="name" for= "name" name="name" placeholder="Enter your name" style="text-align: center;">
             </form>
             <button id="submit-button">Submit Score</button>
         </div>
@@ -68,5 +68,6 @@
         Made with &#10084;&#65039; - Omar
     </footer>
 </body>
-
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script>
 </html>
