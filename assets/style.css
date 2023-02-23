@@ -14,16 +14,22 @@ header {
 }
 
 /*Start Page Css starts*/
+#start-page {
+  
+  
+}
+
 p {
   padding:15px 0px 20px 0px;
-  width: 90%%;
+  width: 90%;
   text-align: center;
   margin: auto;
   font-size: 25px;
 }
 
 img{
-  width: 25%;
+  width: 30%;
+  object-fit: contain;
   display: block;
   padding: 5px;
   margin: auto;
@@ -32,10 +38,12 @@ img{
 .start-page-buttons{
   display: flex;
   justify-content: center;
+  padding: 10px;
 
 }
 
 #start-button {
+  cursor: pointer;
   padding: 5px 10px;
   margin: 0px 5px 0px 0px ;
   border-radius: 15px;
@@ -46,6 +54,7 @@ img{
 }
 
 #hs-button {
+  cursor: pointer;
   padding: 5px 10px;
   margin: 0px 0px 0px 5px ;
   border-radius: 15px;
@@ -58,7 +67,9 @@ img{
 
 /*Quiz Page Css starts*/
 #quiz-page {
-  padding-top:50px
+
+  padding-top:50px;
+  
 }
 
 #timer {
@@ -105,6 +116,10 @@ img{
 /*Quiz Page Css ends*/
 
 /*Results Page Css starts */
+#results-page{
+  
+}
+
 #results-page h1 {
   text-align: center;
   font-size: 50px;
@@ -147,6 +162,7 @@ font-size: 100px;
 
 /*High Scores Page starts*/
 #highscores-page {
+  
   padding: 20px;
 }
 
@@ -156,6 +172,7 @@ font-size: 100px;
 }
 
 #scores-list {
+  list-style-type: none;
   padding: 20px 10px;
 }
 
@@ -174,11 +191,9 @@ justify-content: center;
 /*High Scores Page ends*/
 
 footer {
-  position: fixed;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 10px;
 }
 
 
