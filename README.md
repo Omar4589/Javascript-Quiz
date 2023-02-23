@@ -3,6 +3,8 @@
 ## Description
 
 A timed javascript quiz site that tests a student's Javascript coding knowledge. Application made using HTML, CSS, &amp; Javascript.
+*Currently, this quiz only holds 8 javascript related questions.*
+*Update coming soon.*
 
 ## Tool URL
 
