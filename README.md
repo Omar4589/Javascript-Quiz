@@ -25,7 +25,7 @@ _You will need to refresh the page if you'd like to start the quiz all over agai
 
 ## Screenshot
 
-<img src="">  
+<img src="./assets/JavascriptQuizSiteScreenshot.png">  
     
 ## License
    
