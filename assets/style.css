@@ -90,6 +90,11 @@ img{
   display: block;
   margin: 10px 0px;
   padding: 2px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  text-align: center;
 }
 
 
