@@ -14,10 +14,6 @@ header {
 }
 
 /*Start Page Css starts*/
-#start-page {
-  
-  
-}
 
 p {
   padding:15px 0px 20px 0px;
@@ -73,15 +69,10 @@ img{
 }
 
 #timer {
-  display: inline-block;
-  width: 50%;
-  text-align: center;
-}
-
-#question-number {
-  display: inline-block;
-  width: 50%;
-  text-align: center;
+  display: block;
+  width:100%;
+  text-align:center;
+  font-size: 30px;
 }
 
 #question {
@@ -101,24 +92,10 @@ img{
   padding: 2px 10px;
 }
 
-#answer-result {
-  text-align: center;
-  display: block;
-  font-size: 35px;
-  padding: 20px 0px 10px 0px;
-}
 
-#next-button {
-  display: block;
-  margin: 5px auto;
-  padding: 5px 10px;
-}
 /*Quiz Page Css ends*/
 
 /*Results Page Css starts */
-#results-page{
-  
-}
 
 #results-page h1 {
   text-align: center;
@@ -195,6 +172,64 @@ footer {
   padding-top: 20px;
   font-size: 10px;
 }
+
+
+/*MEDIA SCREEN */
+
+ /*  Tablets (iPads) */
+ @media screen and (max-width: 1024px) {
+  
+
+
+}
+
+
+/* Large Phones (iPhone 14 Pro Max)  */
+@media screen and (max-width: 430px) {
+ 
+  header {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  p {
+    padding-top:5px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+  }
+  
+  img{
+    width: 50%;
+    object-fit: contain;
+    display: block;
+    padding: 5px;
+    margin: auto;
+  }
+  
+
+  
+  #question {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .choices {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+  }
+
+  #scores-list li {
+    font-size: 25px;
+  }
+  
+
+}
+
+
 
 
 
