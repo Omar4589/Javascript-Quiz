@@ -2,7 +2,7 @@
 
 ## Description
 
-Javascript quiz that tests a student's Javascript coding knowledge. App made using HTML, &amp; Javascript.
+A timed javascript quiz site that tests a student's Javascript coding knowledge. Application made using HTML, CSS, &amp; Javascript.
 
 ## Tool URL
 
@@ -13,15 +13,20 @@ https://omar4589.github.io/Javascript-Quiz/
 Need to practice your Javascript knowledge?
 Use this site to take a Javascript related quiz!
 
-Press the Start Quiz button to start the quiz.
-When the quiz starts, a timer of 100 seconds starts and you are prompted with a javascript related question.
-Select one of the choices underneath the question. If you choose the incorrect answer, 10 seconds will be subtracted from the timer.
-If you answer correctly, you will move on to the next question.
-After all questions are over, a results page will appear with your score.
-Your score is the time left on the timer. Keep in mind that the timer can go on to negative numbers.
-Enter your name in the input below your score result to record your name and score to the high scores page.
+### Instructions
 
-_You will need to refresh the page if you'd like to start the quiz all over again_
+- Press the Start Quiz button at the bottom of the main page to start the quiz.
+    - A timer with 100 seconds will start to count down.
+- Answer the question shown to the best of your ability. 
+    - If you answer incorrectly, 10 seconds will be deducted from the timer and you will need to select a different answer.
+    - If you answer correctly, you will move on to the next question.
+    - After all questions have been ansered correctly, you will be shown a results page with the time left as your score. 
+    - Keep in mind that the timer can go into negative numbers.
+- Enter your name in the input below your score to record your name and score to the high scores page.
+- Click the High Scores button to go to the high scores page and see all locally stored test scores.
+    - Click the Clear High Scores button to clear the high scores stored locally. 
+
+*If you wish to retake the quiz, refresh the web page completely and start again*
 
 ## Screenshot
 
