@@ -138,6 +138,12 @@ font-size: 100px;
 
 #submit-button {
   margin-left: 5px;
+   cursor: pointer;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+
 }
 /*Results Page Css ends */
 
@@ -160,10 +166,22 @@ font-size: 100px;
 
 #home-button {
   margin-right: 1px;
+   cursor: pointer;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+
 }
 
 #clear-button {
   margin-left: 1px;
+   cursor: pointer;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+
 }
 
 .hs-page-buttons {
